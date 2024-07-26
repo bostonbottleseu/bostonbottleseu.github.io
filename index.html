@@ -11,6 +11,12 @@
 
   gtag('config', 'G-TCYD7KX42K');
 </script>
+<SCRIPT language="javascript">       
+    function buyEvent()
+    {
+        gtag('event', 'buy');
+    }
+    </SCRIPT>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -100,6 +106,7 @@
                     <p>250 ml</p>
 
                     <button class="btn bg-dark text-white">Buy Now</button>
+                    <input type="button" class="btn bg-dark text-white" value="Change" onclick="buyEvent()" />
                     <h5 class="mt-4">Product Details</h5>
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quos illum consectetur. Quia,
                         aliquam alias hic quae deleniti rerum ipsam impedit, animi ipsum voluptate, perferendis
